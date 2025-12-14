@@ -1,1 +1,8 @@
- {  "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
+  "version": 2,
+  "builds": [
+    {
+      "src": "./api/conect.js",
+      "src": "./api/server.js",
+      "use": "@vercel/node"
+    }
+  ],
