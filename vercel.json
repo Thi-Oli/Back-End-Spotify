@@ -1,14 +1,15 @@
 {
   "version": 2,
-    "scripts": {
-    "start": "node ./api/server.js"
-  },
+   
   "builds": [
     {
       "src": "./api/server.js",
       "use": "@vercel/node"
-    }
+    }  
   ],
+   "scripts": {
+        "start": "node ./api/server.js"
+    },
   "routes": [
     {
       "src": "/(.*)",
