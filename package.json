@@ -14,7 +14,7 @@
     "node": "24.x"
   },
   "scripts": {
-    "start": " ./api/server.js",
+    "start": "node ./api/server.js",
     "dev": "nodemon ./api/server.js"
   },
   "name": "Back-End-Spotify"
