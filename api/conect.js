@@ -2,7 +2,8 @@ import { MongoClient } from "mongodb";
 import dotenv from "dotenv";
 dotenv.config();
 
-const URI = process.env.REACT_APP_URI;
+const URI =
+  "mongodb+srv://projetoSpotify:4YL2pRhnsw0oHVGx@cluster0.6h2awa1.mongodb.net/?appName=Cluster0";
 
 const client = new MongoClient(URI);
 
